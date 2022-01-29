@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+header{
+    width:100%;
+    height:35vh;
+    background-image: linear-gradient(45deg, #e14fad 0%, #f9d423 100%);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-size:150%;
+    animation: animation_back 5s ease infinite alternate;
+}
+@keyframes animation_back{
+    0%{
+        background-position:0% 0%;
+    }
+    50%{
+        background-position:-200% 50%;
+    }
+    100%{
+        background-position:0% 75%;
+    }
+}
+h1{
+    font-size:4rem;
+    color:white;
+    position: absolute;
+    top:18vh;
+    left:2.5vw;
+    font-family: 'Supermercado One', cursive;
+}
+.logo{
+    width:27vw;
+    height:37vh;
+    margin-left:2vw;
+}
+nav{
+    width:100%;
+}
+.container-nav{
+    width:80%;
+    height:5vh;
+    margin-left:10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration:none;
+}
+.li-nav{
+    font-size:2rem;
+    color:blanchedalmond;
+    list-style:none;
+    font-family: 'Supermercado One', cursive;
+}
+.li-nav:hover{
+    font-weight: 900;
+    transform: scale(1.1);
+    text-decoration:underline;
+}
+.h2-top{
+    width:30%;
+    font-size: 3rem;
+    font-family: 'Supermercado One', cursive;
+    margin:5vh 0 0 8vw;
+}
+.text{
+    width:40%;
+    height:30vh;
+    background-size:200%;
+    border-radius:20px;
+    margin:1vh 0 0 35vw;
+    text-align:left;
+}
+.text-one{
+    width:100%;
+    color:black;
+    padding:2vh 1vw 0 2vw;
+    font-size:1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
