@@ -4,11 +4,10 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    
 }
 header{
     width:100%;
-    height:35vh;
+    height:30vh;
     background-image: linear-gradient(45deg, #e14fad 0%, #f9d423 100%);
     display: flex;
     align-items: center;
@@ -56,7 +55,7 @@ a{
 }
 .li-nav{
     font-size:2rem;
-    color:blanchedalmond;
+    color:white;
     list-style:none;
     font-family: 'Supermercado One', cursive;
 }
@@ -65,8 +64,12 @@ a{
     transform: scale(1.1);
     text-decoration:underline;
 }
+.about{
+    margin-top:10vh;
+    position: relative;
+}
 .h2-top{
-    width:30%;
+    width:40%;
     font-size: 3rem;
     font-family: 'Supermercado One', cursive;
     margin:5vh 0 0 8vw;
@@ -76,14 +79,76 @@ a{
     height:30vh;
     background-size:200%;
     border-radius:20px;
-    margin:1vh 0 0 35vw;
+    margin:1vh 0 0 6vw;
     text-align:left;
 }
 .text-one{
-    width:100%;
-    color:black;
+    width:90%;
+    color:rgb(70, 59, 59);
     padding:2vh 1vw 0 2vw;
-    font-size:1.5rem;
-    font-family: 'Josefin Sans', sans-serif;
+    font-size:1.3rem;
+    font-family: Arial, sans-serif;
     font-weight: 400;
+}
+.cars{
+    width:60vw;
+    position: absolute;
+    top:17vh;
+    left:40vw;
+}
+.impact{
+    width:100%;
+    height:65vh;
+    margin:5vh 0 0 0;
+    background-color:#8D9082;
+}
+.h2-impact{
+    font-size: 3rem;
+    color:white;
+    font-family: 'Supermercado One', cursive;
+    padding:5vh 0 3vh 8vw;
+}
+.p-impact{
+    width:90%;
+    color:white;
+    margin:3vh 0vw 0 3vw;
+    font-size:1.3rem;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+.top10{
+    width:100%;
+    height:50vh;
+}
+.h2-top10{
+    font-size: 3rem;
+    color:black;
+    font-family: 'Supermercado One', cursive;
+    margin:5vh 0 0 8vw;
+}
+.top10{
+    position: relative;
+}
+.cont-kwid{
+    width: 25vw;
+    height:65vh;
+    margin:10vh 0 0 8vw;
+    border-radius:20px;
+    background-color:#738C8C;
+    border:3px solid #2A4646;
+    display: flex;
+    justify-content: center;
+}
+.gray{
+    width:23vw;
+    height:27vh;
+    border-radius:20px;
+    margin-top:2vh;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+}
+.kwid{
+    width:33vw;
+    height:32vh;
 }
