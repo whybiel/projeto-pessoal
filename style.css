@@ -15,6 +15,10 @@ header{
     background-size:150%;
     animation: animation_back 5s ease infinite alternate;
 }
+body{
+    width:100%;
+    height:500vh;
+}
 @keyframes animation_back{
     0%{
         background-position:0% 0%;
@@ -130,25 +134,43 @@ a{
     position: relative;
 }
 .cont-kwid{
-    width: 25vw;
-    height:65vh;
-    margin:10vh 0 0 8vw;
-    border-radius:20px;
-    background-color:#738C8C;
-    border:3px solid #2A4646;
-    display: flex;
-    justify-content: center;
-}
-.gray{
-    width:23vw;
-    height:27vh;
-    border-radius:20px;
-    margin-top:2vh;
-    background-color:#fff;
-    display: flex;
-    justify-content: center;
+    margin:10vh 5vw;
+    position: relative;
 }
 .kwid{
-    width:33vw;
-    height:32vh;
+    width:40vw;
+    height:35vh;
+    margin:5vh 0 0 5vw;
+}
+.kwid-h2{
+    font-size: 3rem;
+    font-family: 'Supermercado One', cursive;
+    position: absolute;
+    top:0vh;
+    left:13vw;
+}
+.kwid-p{
+    width:50%;
+    font-size:1.3rem;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color:rgb(70, 59, 59);
+    position: absolute;
+    top:15vh;
+    left:45vw;
+}
+.kwid-list{
+    margin:5vh 0 0 0vw;
+}
+.kwid-list li{
+    font-size:1.3rem;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color:rgb(70, 59, 59);
+}
+.specify-btn{
+    width:45vw;
+    height:5vh;
+    font-size:1.3rem;
+    font-family: Arial, sans-serif;
 }
